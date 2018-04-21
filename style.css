@@ -1,0 +1,174 @@
+body{
+	font-family: verdana;
+}
+/*Bejelentkezés form*/
+.form-cont{
+	margin-top: 6%;
+	max-width: 500px;
+	border: 1px solid grey;
+	padding-bottom: 15px;
+	box-shadow: 8px 8px 4px grey;
+	border-radius: 6px
+}
+.form-cont h1{
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 6px
+}
+/*Minden h1 tag*/
+	h1{
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	background: #6461FF;
+	padding: 5px;
+	color: white;
+	border-radius: 6px
+}
+/*Navbar*/
+.nav{
+	background: #6461FF;
+	padding: 10px;
+	box-shadow: 0px 5px 10px grey;
+}
+.nav .out{
+	float: right;
+}
+.nav a{
+	font-size: 14px;
+	font-weight: bold;
+	color: white
+}
+.nav a:hover{
+	color: lightblue;
+	text-decoration: none
+}
+.nav ul, li{
+	display: inline;
+}
+.nav ul li{
+	padding-right: 10px
+}
+/*Hozzáadás megörtént*/
+.ok{
+	text-align:center;
+	font-family: verdana;
+	font-size: 15px;
+	padding: 10px;
+	margin: 20% auto auto;
+	background: #6461FF;
+	max-width: 400px;
+	border-radius: 6px;
+	color: white
+}
+/*Minden mezőt tölts ki*/
+.error{
+	text-align:center;
+	font-family: verdana;
+	font-size: 15px;
+	padding: 10px;
+	margin: 20% auto auto;
+	background: red;
+	color: white;
+	max-width: 400px;
+	border-radius: 6px
+}
+.error a{
+	color: blue;
+	text-decoration: none
+}
+.error a:hover{
+	color: black
+}
+/*Belépésnél hibaüzenet*/
+.err{
+	text-align:center;
+	font-family: verdana;
+	font-size: 13px;
+	padding: 10px;
+	margin: 10px auto auto;
+	background: red;
+	color: white;
+	max-width: 400px
+}
+/*Bal oldali rész mindenhol*/
+.left{
+	overflow: auto;
+	margin-top: 20px;
+	margin-right: 5px;
+	padding-bottom: 15px;
+	max-height: 570px;
+	border: 1px solid grey;
+	border-radius: 6px;
+	text-align: center;
+}
+/*Jobb oldali rész mindenhol*/
+.right{
+	margin-top: 20px;
+	margin-left: 5px;
+	padding: 0px 20px 10px 20px;
+	border: 1px solid grey;
+	border-radius: 6px;
+	overflow: auto;
+	font-size: 12px
+}
+.right label{
+	font-size: 14px
+}
+.checkbox label{
+	font-size: 13px;
+}
+.right h2{
+	font-size: 15px;
+	font-weight: bold
+}
+/*Lenyíló rész fejléc*/
+.toggletitle{
+	padding: 3px;
+	margin-bottom: 3px;
+	background: #8190FF;
+	border-radius: 6px;
+	color: white;
+	font-size: 14px;
+	cursor: pointer
+}
+.toggletitle: hover{
+	background: #9AAAFF;
+	letter-spacing: 1px;
+}
+/*Lenyíló rész tartalom*/
+.toggleitem{
+	padding: 2px;
+	font-size: 13px;
+}
+/*Lenyíló rész ételtípusok*/
+.toggletip{
+	background: #C5C9FF;
+	padding: 2px;
+	font-size: 14px;
+}
+.btn-s {
+    padding: 0px 4px;
+    font-size: 10px;
+	float: right
+}
+.btn-s a{
+	color: white
+}
+.btn-s2 {
+    padding: 0px 4px;
+    font-size: 12px;
+	margin-bottom: 4px
+}
+.table-text>thead>tr>th{
+	text-align: center
+}
+.bgcolor{
+	background: lightblue
+}
+.probaclass{
+	background: lightblue;
+	padding: 20px;
+	margin-top: 20px
+}
